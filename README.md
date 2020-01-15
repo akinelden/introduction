@@ -3,7 +3,7 @@
 This repository is prepared to inform about all repositories that I own/contribute.
 
 ### Contents
-*	[Undergraduate Projects](#UndergraduateProjects)
+*	[Undergraduate Projects](#undergraduate-projects)
 	*	IE440 Nonlinear Models in Operations Research
 *	Personal Projects
 *	Competition Projects
