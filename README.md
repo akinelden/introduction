@@ -4,13 +4,13 @@ This repository is prepared to inform about all repositories that I own/contribu
 
 ### Contents
 *	[Undergraduate Projects](#undergraduate-projects)
-	*	[IE440 Nonlinear Models in Operations Research](ie440-nonlinear-models-in-operations-research)
-	*	[CMPE480 Introduction to Artificial Intelligence](cmpe480-introduction-to-artificial-intelligence)
-	*	[IE423 Quality Engineering](ie423-quality-engineering)
-	*	[CMPE250 Data Structures & Algorithms](cmpe250-Data-Structures-&-Algorithms)
-	*	[CMPE160 Introduction to Object Oriented Programming](CMPE160-Introduction-to-Object-Oriented-Programming)
-*	[Personal Projects](personal-projects)
-*	[Competition Projects](competition-projects)
+	*	[IE440 Nonlinear Models in Operations Research](#ie440-nonlinear-models-in-operations-research)
+	*	[CMPE480 Introduction to Artificial Intelligence](#cmpe480-introduction-to-artificial-intelligence)
+	*	[IE423 Quality Engineering](#ie423-quality-engineering)
+	*	[CMPE250 Data Structures & Algorithms](#cmpe250-Data-Structures-&-Algorithms)
+	*	[CMPE160 Introduction to Object Oriented Programming](#CMPE160-Introduction-to-Object-Oriented-Programming)
+*	[Personal Projects](#personal-projects)
+*	[Competition Projects](#competition-projects)
 
 ## Undergraduate Projects
 
