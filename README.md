@@ -15,7 +15,7 @@ This repository is prepared to inform about all repositories that I own/contribu
 ## Undergraduate Projects
 
 ### IE440 Nonlinear Models in Operations Research
-The topic of the lecture is nonlinear optimization techniques in one and multi dimensional space.
+The topic of the lecture is nonlinear optimization techniques in one and multi dimensional space. All projects are implemented in Python.
 
 #### [ie440-homework1](github.com/akinelden/ie440-homework1)
 4 different heuristics methods are implemented to find local minimum in one dimension.
@@ -24,29 +24,37 @@ The topic of the lecture is nonlinear optimization techniques in one and multi d
 4 different location-allocation problems are solved using analytical solution and heuristics.
 
 #### [ie440-homework3](github.com/akinelden/ie440-homework3)
+3 different search methods are applied to find minimum of a function.
 
 #### [ie440-homework4](github.com/akinelden/ie440-homework4)
+4 different descent methods are implemented.
 
 #### [ie440-homework5](github.com/akinelden/ie440-homework5)
+Reduced Gradient Method is implemented.
 
 #### [ie440-homework6](github.com/akinelden/ie440-homework6)
+Backpropagation algorithm in neural networks is implemented.
 
 #### [ie440-final-assignment](github.com/akinelden/ie440-final-assignment)
-
+Some neural networks algorithms like self-organizing map (SOM), vector quantization and SOM-TSP are implemented.
 
 ### CMPE480 Introduction to Artificial Intelligence
+The topic of the lecture is fundamentals of Artificial Intelligence like search algorithms, logic, inference, probabilistic inference etc.
 
 #### [cmpe480-fall19-project1](github.com/akinelden/cmpe480-fall19-project1)
+Search algorithms are implemented in Java.
 
 #### [cmpe480-fall19-project2](github.com/akinelden/cmpe480-fall19-project2)
+Wolf, goat and cabbage problem is solved via PDDL planning solver.
 
 #### [cmpe480-fall19-project3](github.com/akinelden/cmpe480-fall19-project3)
-
+Decision tree algorithm is implemented in Python.
 
 ### IE423 Quality Engineering
+The topic of the lecture is quality control methods in production and statistics.
 
 #### [ie423-term-project](github.com/akinelden/ie423-term-project)
-
+Image processing is applied in quality control.
 
 ### CMPE250 Data Structures & Algorithms
 
