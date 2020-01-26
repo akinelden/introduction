@@ -6,7 +6,6 @@
 	margin: 0px;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
-	/*padding: 12px 16px;*/
 	z-index: 2;
 }
 
@@ -24,4 +23,66 @@
 
 .dropdown-content a:hover {
 	background-color: #e0dfdf
+}
+
+.nav-title{
+	font-size: 35px;
+}
+
+.left-nav{
+	position: sticky;
+	top: 120px;
+	width: fit-content;
+	font-size: 20px;
+	padding: 5px!important;
+	z-index: 1010;
+	margin-top: 5px;
+	float: left;
+}
+
+.left-nav-content{
+	display: block;
+	padding: 20px;
+	max-width: 250px;
+	min-width: 150px;
+	overflow: scroll;
+}
+
+.left-nav-content .nav-item .nav-link{
+	text-transform: none;
+	padding: 8px 5px;
+}
+
+.left-nav nav, .left-nav nav div, .left-nav nav div ul{
+	padding: 5px;
+}
+
+.left-nav-content::-webkit-scrollbar{
+	background: transparent;
+	height: 3px;
+	width: 3px;
+}
+
+.left-nav-content:hover::-webkit-scrollbar-thumb{
+	background-color: rgba(0, 0, 0, .5);
+}
+
+/* TODO: improve this one and implement with page scrollbar*/
+.left-nav-content::-webkit-scrollbar:hover{
+	height: 5px;
+	width: 5px;
+}
+
+.left-nav-content{
+	-ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar{
+	background: transparent;
+	height: 5px;
+	width: 5px;
+}
+
+html::-webkit-scrollbar-thumb{
+	background-color: rgba(0, 0, 0, .5);
 }
