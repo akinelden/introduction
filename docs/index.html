@@ -106,61 +106,63 @@
   </section>
   <!-- /hero area -->
 
-  <!-- contents menu-->
-  <div class="navigation left-nav">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#left-navigation"
-        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="left-navigation">
-        <ul class="navbar-nav left-nav-content">
-          <li class="nav-item">
-            <div class="collapsible-item">
-              <button class="arrow-button" type="button" data-toggle="collapse" data-target="#left-contents"
-                onclick="changeArrow" aria-controls="navigation" aria-expanded="false"><i
-                  class="arrow right-arrow"></i></button>
-              <a class="nav-link" href="#undergraduate-projects">Undergraduate Projects</a>
-            </div>
-            <div id="left-contents" class="collapse no-padding left-padding">
-              <ul class="no-padding sub-list">
-                <li class="nav-item">
-                  <a class="nav-link" href="#ie440-nonlinear-models-in-operations-research">IE440 Nonlinear Models in
-                    Operations Research</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#cmpe480-introduction-to-artificial-intelligence">CMPE480 Introduction to
-                    Artificial Intelligence</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#ie423-quality-engineering">IE423 Quality Engineering</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#cmpe250-Data-Structures-&-Algorithms">CMPE250 Data Structures &
-                    Algorithms</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#CMPE160-Introduction-to-Object-Oriented-Programming">CMPE160 Introduction
-                    to Object Oriented Programming</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#personal-projects">Personal Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#competition-projects">Competition Projects</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <!-- /contents menu-->
-
-  <!-- about -->
+  <!--  section container -->
   <section class="section">
+
+    <!-- contents menu-->
+    <div class="navigation left-nav">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#left-navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="left-navigation">
+          <ul class="navbar-nav left-nav-content">
+            <li class="nav-item">
+              <div class="collapsible-item">
+                <button class="arrow-button" type="button" data-toggle="collapse" data-target="#left-contents"
+                  onclick="changeArrow" aria-controls="navigation" aria-expanded="false"><i
+                    class="arrow right-arrow"></i></button>
+                <a class="nav-link" href="#undergraduate-projects">Undergraduate Projects</a>
+              </div>
+              <div id="left-contents" class="collapse no-padding left-padding">
+                <ul class="no-padding sub-list">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#ie440-nonlinear-models-in-operations-research">IE440 Nonlinear Models in
+                      Operations Research</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cmpe480-introduction-to-artificial-intelligence">CMPE480 Introduction to
+                      Artificial Intelligence</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#ie423-quality-engineering">IE423 Quality Engineering</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cmpe250-Data-Structures-&-Algorithms">CMPE250 Data Structures &
+                      Algorithms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#CMPE160-Introduction-to-Object-Oriented-Programming">CMPE160 Introduction
+                      to Object Oriented Programming</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#personal-projects">Personal Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competition-projects">Competition Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- /contents menu-->
+
+    <!-- about -->
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto text-center">
@@ -169,70 +171,73 @@
         </div>
       </div>
     </div>
-  </section>
-  <!-- /about -->
+    <!-- /about -->
 
-  <!-- repos -->
-  <section class="section">
+    <!-- repos -->
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-title" id="undergraduate-projects">Undergraduate Projects</h2>
         </div>
         <div class="col-lg-10 mx-auto">
-          <h3 class="sublist-header" id="ie440-nonlinear-models-in-operations-research">IE440 Nonlinear Models in Operations Research</h3>
+          <h3 class="sublist-header" id="ie440-nonlinear-models-in-operations-research">IE440 Nonlinear Models in
+            Operations Research</h3>
           <p class="font-secondary paragraph-lg text-dark">The topic of the lecture is nonlinear optimization techniques
             in one and multi dimensional space. All projects are implemented in Python.</p>
           <h4><a class="repo-header" href="https://github.com/akinelden/ie440-homework1">ie440-homework1</a></h4>
-          <p class="font-secondary paragraph-lg text-dark">4 different heuristics methods are implemented to find local minimum in one dimension.</p>
+          <p class="font-secondary paragraph-lg text-dark">4 different heuristics methods are implemented to find local
+            minimum in one dimension.</p>
           <h4><a class="repo-header" href="https://github.com/akinelden/ie440-homework2">ie440-homework2</a></h4>
-          <p class="font-secondary paragraph-lg text-dark">4 different location-allocation problems are solved using analytical solution and heuristics.</p>
+          <p class="font-secondary paragraph-lg text-dark">4 different location-allocation problems are solved using
+            analytical solution and heuristics.</p>
           <h4><a class="repo-header" href="https://github.com/akinelden/ie440-homework3">ie440-homework3</a></h4>
-          <p class="font-secondary paragraph-lg text-dark">3 different search methods are applied to find minimum of a function.</p>
+          <p class="font-secondary paragraph-lg text-dark">3 different search methods are applied to find minimum of a
+            function.</p>
           <h4><a class="repo-header" href="https://github.com/akinelden/ie440-homework4">ie440-homework4</a></h4>
           <p class="font-secondary paragraph-lg text-dark">4 different descent methods are implemented.</p>
           <h4><a class="repo-header" href="https://github.com/akinelden/ie440-homework5">ie440-homework5</a></h4>
           <p class="font-secondary paragraph-lg text-dark">Reduced Gradient Method is implemented.</p>
           <h4><a class="repo-header" href="https://github.com/akinelden/ie440-homework6">ie440-homework6</a></h4>
-          <p class="font-secondary paragraph-lg text-dark">Backpropagation algorithm in neural networks is implemented.</p>
-          <h4><a class="repo-header" href="https://github.com/akinelden/ie440-final-assignment">ie440-final-assignment</a></h4>
-          <p class="font-secondary paragraph-lg text-dark">Some neural networks algorithms like self-organizing map (SOM), vector quantization and SOM-TSP are implemented.</p>
+          <p class="font-secondary paragraph-lg text-dark">Backpropagation algorithm in neural networks is implemented.
+          </p>
+          <h4><a class="repo-header"
+              href="https://github.com/akinelden/ie440-final-assignment">ie440-final-assignment</a></h4>
+          <p class="font-secondary paragraph-lg text-dark">Some neural networks algorithms like self-organizing map
+            (SOM), vector quantization and SOM-TSP are implemented.</p>
         </div>
         <div class="col-lg-10 mx-auto">
-          <h3 class="sublist-header" id="ie440-nonlinear-models-in-operations-research">IE440 Nonlinear Models in Operations Research</h3>
+          <h3 class="sublist-header" id="ie440-nonlinear-models-in-operations-research">IE440 Nonlinear Models in
+            Operations Research</h3>
           <p class="font-secondary paragraph-lg text-dark">The topic of the lecture is nonlinear optimization techniques
             in one and multi dimensional space. All projects are implemented in Python.</p>
-          </div>
+        </div>
       </div>
     </div>
-  </section>
 
-  <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-title" id="personal-projects">Personal Projects</h2>
         </div>
         <div class="col-lg-10 mx-auto">
-          
+
         </div>
       </div>
     </div>
-  </section>
 
-  <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-title" id="competition-projects">Competition Projects</h2>
         </div>
         <div class="col-lg-10 mx-auto">
-          
+
         </div>
       </div>
     </div>
+    <!-- /repos -->
   </section>
-  <!-- /repos -->
+  <!--  /section container -->
 
   <!-- footer -->
   <footer class="bg-dark footer-section">
@@ -256,7 +261,7 @@
           var CurrentYear = new Date().getFullYear()
           document.write(CurrentYear)
         </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
-        <p class="mb-0 text-light">Customized by akinelden</p>
+      <p class="mb-0 text-light">Customized by akinelden</p>
     </div>
   </footer>
   <!-- /footer -->
