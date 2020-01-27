@@ -115,19 +115,37 @@
       <div class="collapse navbar-collapse" id="left-navigation">
         <ul class="navbar-nav left-nav-content">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <div class="collapsible-item">
+              <button class="arrow-button" type="button" data-toggle="collapse" data-target="#left-contents"
+                onclick="changeArrow" aria-controls="navigation" aria-expanded="false"><i
+                  class="arrow right-arrow"></i></button>
+              <a class="nav-link" href="#undergraduate-projects">Undergraduate Projects</a>
+            </div>
+              <div id="left-contents" class="collapse no-padding left-padding">
+                <ul class="no-padding sub-list">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#ie440-nonlinear-models-in-operations-research">IE440 Nonlinear Models in Operations Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="#cmpe480-introduction-to-artificial-intelligence">CMPE480 Introduction to Artificial Intelligence</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#ie423-quality-engineering">IE423 Quality Engineering</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cmpe250-Data-Structures-&-Algorithms">CMPE250 Data Structures & Algorithms</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Scripts</a>
+                    <a class="nav-link" href="#CMPE160-Introduction-to-Object-Oriented-Programming">CMPE160 Introduction to Object Oriented Programming</a>
+                  </li>
+                </ul>
+              </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#personal-projects">Personal Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#competition-projects">Competition Projects</a>
           </li>
         </ul>
       </div>

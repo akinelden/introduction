@@ -1,3 +1,16 @@
+.no-padding{
+	padding: 0px!important;
+}
+
+.left-padding{
+	padding-left: 10px!important;
+}
+
+.sub-list{
+	padding-left: 10px!important;
+	font-size: 16px;
+}
+
 .dropdown-content {
 	display: none;
 	position: absolute;
@@ -43,23 +56,26 @@
 .left-nav-content{
 	display: block;
 	padding: 20px;
-	max-width: 250px;
+	max-width: 300px;
 	min-width: 150px;
-	overflow: scroll;
+	overflow: auto;
+	white-space: nowrap;
 }
 
 .left-nav-content .nav-item .nav-link{
 	text-transform: none;
 	padding: 8px 5px;
+	display: inline-block;
 }
 
 .left-nav nav, .left-nav nav div, .left-nav nav div ul{
 	padding: 5px;
 }
 
+/* TODO: turn it back to 3px when hover is enabled*/
 .left-nav-content::-webkit-scrollbar{
 	background: transparent;
-	height: 3px;
+	height: 5px;
 	width: 3px;
 }
 
@@ -73,6 +89,8 @@
 	width: 5px;
 }
 
+.left-nav-content::-webkit-scrollbar-thumb:hover
+
 .left-nav-content{
 	-ms-overflow-style: none;
 }
@@ -85,4 +103,36 @@ html::-webkit-scrollbar{
 
 html::-webkit-scrollbar-thumb{
 	background-color: rgba(0, 0, 0, .5);
+}
+
+.arrow{
+	border: solid rgb(11, 0, 83);
+	border-width: 0 3px 3px 0;
+	padding: 3px;
+	margin-bottom: 3px;
+	float: left;
+}
+
+.right-arrow{
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.down-arrow{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.arrow-button{
+	background: transparent;
+	padding: 0px;
+	border: none;
+	margin: 0px;
+	margin-left: -6px;
+	display: inline-block;
+	z-index: 2;
+}
+
+.collapsible-item{
+	display: flex;
 }
