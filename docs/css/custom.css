@@ -55,7 +55,8 @@
 }
 
 .dropdown-content a {
-	color: black;
+	color: #41228e;
+	font-weight: bold;
 	padding: 12px 16px;
 	margin: 8px;
 	text-decoration: none;
