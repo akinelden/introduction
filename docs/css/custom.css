@@ -11,6 +11,19 @@
 	font-size: 16px;
 }
 
+.sublist-header{
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.repo-header{
+	font-weight: bold;
+	color: darkblue;
+	display: inline-block;
+	margin-top: 30px;
+}
+
 .dropdown-content {
 	display: none;
 	position: absolute;
