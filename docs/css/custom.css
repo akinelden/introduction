@@ -17,6 +17,11 @@
 	margin-bottom: 20px;
 }
 
+.section-title{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
 .repo-header{
 	font-weight: bold;
 	color: darkblue;
@@ -55,6 +60,12 @@
 	font-size: 35px;
 }
 
+@media only screen and (min-width: 992px) {
+	.left-nav{
+		float: left;
+	}
+}
+
 .left-nav{
 	position: sticky;
 	top: 120px;
@@ -63,7 +74,7 @@
 	padding: 5px!important;
 	z-index: 1010;
 	margin-top: 5px;
-	float: left;
+	
 }
 
 .left-nav-content{
