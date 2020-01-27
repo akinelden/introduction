@@ -6,6 +6,10 @@
 	padding-left: 10px!important;
 }
 
+.top-padding{
+	padding-top: 8px!important;
+}
+
 .sub-list{
 	padding-left: 10px!important;
 	font-size: 16px;
@@ -15,6 +19,12 @@
 	display: inline-block;
 	margin-top: 40px;
 	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 770px){
+	.section{
+		padding-top: 10px;
+	}
 }
 
 .section-title{
@@ -166,4 +176,8 @@ html::-webkit-scrollbar-thumb{
 
 .collapsible-item{
 	display: flex;
+}
+
+.footer-section{
+	padding-top: 20px;
 }
