@@ -91,10 +91,10 @@
       <div class="row mb-5">
         <div class="col-12">
           <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
-            <label class="btn btn-sm btn-primary" onclick="redirectIframe(this,'iframe_a')">
+            <label class="btn btn-sm btn-primary" id="python-label" onclick="redirectIframe(this,'iframe_a')">
               <input type="radio" name="language-selector" value="scripts-content/python/" />Python
             </label>
-            <label class="btn btn-sm btn-primary" onclick="redirectIframe(this,'iframe_a')">
+            <label class="btn btn-sm btn-primary" id="latex-label" onclick="redirectIframe(this,'iframe_a')">
               <input type="radio" name="language-selector" value="scripts-content/latex/" />LaTeX
             </label>
           </div>
@@ -152,10 +152,12 @@
   <script>
     window.onload = function () {
       let urlParams = new URLSearchParams(window.location.search);
-      let iframeSrc = urlParams.get("lang");
-      if (iframeSrc == undefined) { return; }
+      let lang = urlParams.get("lang");
+      if (lang == undefined) { return; }
       let ifr = document.getElementById("iframe_a");
-      ifr.src = "scripts-content/" + iframeSrc;
+      ifr.src = "scripts-content/" + lang;
+      let lab = document.getElementById(lang+"-label");
+      lab.classList.add("active");
     }
   </script>
 
