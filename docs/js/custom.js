@@ -1,16 +1,25 @@
-function changeArrow(element){
+function changeArrow(element) {
 	btn = element.firstElementChild;
 	arrow = btn.firstElementChild;
-	if(btn.getAttribute("aria-expanded") == "true"){
+	if (btn.getAttribute("aria-expanded") == "true") {
 		arrow.classList.add("right-arrow");
-		if(arrow.classList.contains("down-arrow")){
+		if (arrow.classList.contains("down-arrow")) {
 			arrow.classList.remove("down-arrow");
 		}
 	}
-	else if(btn.getAttribute("aria-expanded") == "false"){
+	else if (btn.getAttribute("aria-expanded") == "false") {
 		arrow.classList.add("down-arrow");
-		if(arrow.classList.contains("right-arrow")){
+		if (arrow.classList.contains("right-arrow")) {
 			arrow.classList.remove("right-arrow");
 		}
 	}
+}
+
+function resizeIframe(obj) {
+	obj.style.height = window.innerHeight + 'px';
+}
+
+function redirectIframe(element, iframeId){
+	let ifr = document.getElementById(iframeId);
+	ifr.src = element.firstElementChild.value;
 }

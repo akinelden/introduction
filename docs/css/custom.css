@@ -71,27 +71,29 @@
 	font-size: 30px;
 }
 
-@media only screen and (min-width: 992px) {
-	.left-nav{
-		float: left;
-	}
-}
-
 @media only screen and (max-width: 425px){
 	h2, .h2{
 		font-size: 40px;
 	}
 }
 
-.left-nav{
+.sticky-nav{
 	position: sticky;
 	top: 120px;
+	z-index: 1010;
+}
+
+.left-nav{
 	width: fit-content;
 	font-size: 20px;
 	padding: 5px!important;
-	z-index: 1010;
 	margin-top: 5px;
-	
+}
+
+@media only screen and (min-width: 992px) {
+	.left-nav{
+		float: left;
+	}
 }
 
 .left-nav-content{
@@ -181,4 +183,20 @@ html::-webkit-scrollbar-thumb{
 
 .footer-section{
 	padding-top: 50px;
+}
+
+.iframe-sec{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.inner-iframe{
+	border: none;
+	height: max-content;
+	width: 100%;
+}
+
+.btn-primary a{
+	color: #fff;
+	pointer-events: none;
 }

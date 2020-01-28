@@ -38,6 +38,7 @@
     window.onload = function () {
 
         var parallaxBox = document.getElementById('parallax');
+        if(parallaxBox == undefined){ return;}
         var
             /* c1left = document.getElementById('l1').offsetLeft,
                        c1top = document.getElementById('l1').offsetTop, */
