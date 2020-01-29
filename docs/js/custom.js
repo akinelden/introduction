@@ -19,6 +19,10 @@ function resizeIframe(obj) {
 	obj.style.height = window.innerHeight + 'px';
 }
 
+function resizeFitIframe(obj){
+	obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+}
+
 function redirectIframe(element, iframeId){
 	let ifr = document.getElementById(iframeId);
 	ifr.src = element.firstElementChild.value;
