@@ -25,6 +25,15 @@
 	.section{
 		padding-top: 10px;
 	}
+
+	.bg-shape-7{
+		display: none;
+	}
+	
+	.bg-shape-2{
+		left: 0px;
+		top: 330px;
+	}
 }
 
 .section-title{
